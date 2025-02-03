@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2 {
+    position: absolute;
+    top: -40px ;
+    left:-70px ;
+    padding: 30px 70px;
+    display: flex;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-weight: 800;
+    unicode-bidi: isolate;
+    color: #474747;
+    
+}
+
+label {
+    padding-left: 16px;
+    opacity: 0.75;
+}
+
+input {
+    display: block; 
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    margin-top: 8px;
+    padding: 12px 10px; 
+    width: 230px;
+    background-color: #EAEEED;
+    opacity: 70%;
+}
+
+
+
+button {
+    padding: 12px 100px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 5;
+    border: #000000;
+    background-color: #000000;
+    font-weight: 600;
+    font-size: small;
+    width: 77%;
+    margin-left: 30px;
+    border-color: rgb(0, 0, 0);
+    opacity: 70%;
+    
+   
+}
+
+.column {
+    display: flex;
+    gap: 9px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.sign-group {
+    margin-left: 20px;
+    width: 114%;
+
+}
+
+.input-box {
+    background-color: transparent;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 40px;
+    resize: none;
+    margin-right: 50px;
+    opacity: 60%;
+    border: #EAEEED;
+}
+.txtbox {
+    margin-left: 50px;
+}
+
+
+.lgn-btn {
+    height: 40px;
+    width: 230px;
+    padding: 10px 93px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 13px;
+    cursor: pointer;
+    background-color: #000000;
+    font-weight: 600;
+    font-size: small;
+    opacity: 70%;
+    margin-right: 30px;
+    border-color: #000000;
+}
+
+.cnl-btn {
+    height: 40px;
+    width: 230px;
+    padding: 10px 93px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 13px;
+    cursor: pointer;
+    background-color: #000000;
+    font-weight: 600;
+    font-size: small;
+    opacity: 70%;
+    margin-right: 30px;
+    border-color: #000000;
+}
+
+
+

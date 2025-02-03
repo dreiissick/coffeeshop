@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Sour Gummy", sans-serif;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url(coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    position: absolute;
+    top: -40px ;
+    left:-70px ;
+    padding: 30px 70px;
+    display: flex;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-weight: 800;
+    unicode-bidi: isolate;
+    color: #474747;
+}
+label {
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    padding: 30px 70px;
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    unicode-bidi: isolate;
+    color: #474747;
+
+}
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+    outline: none;
+    border: #000000;
+    background-color: rgb(52, 49, 49);
+    font-weight: 600;
+    font-size: small;
+    position: absolute;
+    top: 40px; 
+    right: 40px; 
+    opacity: 90%;
+    font-family: 'Nunito', sans-serif;
+}
+.logo.h2 {
+    margin-bottom: 100px;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 525px;
+}
+.image-container {
+    position: absolute;
+    left: 200px;
+    height: 50%;
+    width: 88%;
+    display: flex;
+    gap: 84px;
+}
+.pic {
+    position: relative;
+    width: 125px;
+    text-align: center;
+}
+.pic img {
+    
+    margin: 30px 20px 20px 30px;
+    width: 148%;
+    height: 286px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.pic:hover img {
+    transform: scale(1.2);
+    z-index: 2;
+}
+.caption {
+    width: 150%;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333232;
+    transition: color 0.3s ease;
+    opacity: 0;
+}
+.pic:hover .caption {
+    color: rgb(62, 62, 62);
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .pic {
+        width: 80%; 
+        height: auto; 
+    }
+}

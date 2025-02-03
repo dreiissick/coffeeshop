@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="front.css">
+    <title>welcome</title>
+</head>
+<body>
+      <h1>COFFEE</h1> <br>
+       
+      <label type="text" class="big">[kaw-fee] · noun</label> <br>
+          <label type="text" class="sml">liquid that smells like fresh ground heaven</label>
+      <div class="container"> 
+        <div class="column">
+          <a href="signup.php"><button type="button" class="sgnp-btn">Sign up</button></a> 
+          <a href="login.php"><button type="button" class="lgn-btn">Log in</button></a>  
+        </div>
+      </div>
+</body>
+</html>
